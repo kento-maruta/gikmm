@@ -13,7 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "gigbaseKmm"
-include(":androidApp")
+rootProject.name = "gigkmm"
 include(":shared")
-include(":sharedNativeModule")

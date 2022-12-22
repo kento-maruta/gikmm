@@ -47,7 +47,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.gigbasekmm"
+    namespace = "com.example.gigkmm"
     compileSdk = 32
     defaultConfig {
         minSdk = 21

@@ -1,4 +1,4 @@
-package com.example.gigbasekmm
+package com.example.gigkmm
 
 interface Platform {
     val name: String
