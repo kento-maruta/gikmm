@@ -10,7 +10,7 @@ class Greeting {
     }
 
     fun test(): String {
-        val range = (1..15)
+        val range = (1..30)
         return range.random().toString()
     }
 }
