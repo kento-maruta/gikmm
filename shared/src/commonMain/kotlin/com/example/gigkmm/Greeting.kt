@@ -1,5 +1,6 @@
 package com.example.gigkmm
 
+import co.touchlab.kermit.Logger
 import io.ktor.client.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
@@ -20,6 +21,8 @@ class Greeting {
 
     suspend fun greeting(): String {
         val response = client.get("https://ktor.io/docs/")
-        return response.bodyAsText()
+        val body = response.bodyAsText()
+        Logger.i(body)
+        return body
     }
 }
